@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <div class="md:flex md:justify-center ">
-    <div class="flex justify-center mb-10 md:w-1/3 md:mb-0">
+  <div class="md:flex md:justify-center">
+    <div class="mb-10 flex justify-center items-center md:mr-10 md:mb-0">
       <img
           src="../assets/images/profils.png"
           alt="Profile"
