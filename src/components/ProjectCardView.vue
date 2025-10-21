@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <div class="bg-neutral-700 rounded-lg p-8 h-full flex justify-around flex-col" :class="{'opacity-70': project.wip}">
+  <div class="bg-neutral-700 rounded-lg p-8 mx-4 md:mx-0 h-full flex justify-around flex-col" :class="{'opacity-70': project.wip}">
     <div>
       <img :src="getImageUrl(project.picture)" alt="Project picture" class="mb-4">
       <span class="text-xl font-bold mb-4">{{project.name}} {{project.wip ? '(Work in progress)' : ''}}</span>
