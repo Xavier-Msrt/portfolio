@@ -3,7 +3,7 @@ import App from './App.vue'
 import './index.css'
 
 import { createMemoryHistory, createRouter } from 'vue-router'
-import HomeView from "@/components/HomeView.vue";
+import HomeView from "@/views/HomeView.vue";
 
 const routes = [
     { path: '/', component: HomeView },

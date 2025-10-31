@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Social Network",
+    "wip": true,
+    "description": "Project for learning Angular and practice Spring boot",
+    "link": "https://example.com/project1",
+    "picture": "social-network",
+    "github": "https://github.com/Xavier-Msrt/social-network",
+    "tags": [
+      {
+        "name": "angular",
+        "color": "red"
+      },
+      {
+        "name": "spring",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "name": "Ticky",
+    "wip": false,
+    "description": "Small, lightweight Discord bot that helps you create and manage support tickets easily.",
+    "picture": "discord-bot",
+    "github": "https://github.com/Xavier-Msrt/ticky",
+    "tags": [
+      {
+        "name": "discord",
+        "color": "blue"
+      },
+      {
+        "name": "python",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "name": "Portfolio",
+    "wip": false,
+    "description": "This website made with VueJS 3",
+    "link": "/",
+    "picture": "portfolio",
+    "github": "https://github.com/Xavier-Msrt/portfolio",
+    "tags": [
+      {
+        "name": "vue",
+        "color": "green"
+      }
+    ]
+  }
+]

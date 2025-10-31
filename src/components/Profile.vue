@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
   const age = new Date().getFullYear() - 2003;
 </script>
 
@@ -6,7 +6,7 @@
   <div class="md:flex md:justify-center">
     <div class="mb-10 flex justify-center items-center md:mr-10 md:mb-0">
       <img
-          src="../assets/images/profils.png"
+          src="@/assets/images/profils.png"
           alt="Profile"
           class="w-46 h-46 rounded-full border-4 border-gray-300 object-cover"
       >
