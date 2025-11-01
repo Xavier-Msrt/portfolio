@@ -6,6 +6,6 @@ export interface ProjectInterface {
     description: string;
     link?: string;
     picture: string;
-    github: string;
+    github: string | { frontend: string, backend: string};
     tags?: TagInterface[];
 }

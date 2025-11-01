@@ -8,11 +8,11 @@
     "github": "https://github.com/Xavier-Msrt/social-network",
     "tags": [
       {
-        "name": "angular",
+        "name": "Angular",
         "color": "red"
       },
       {
-        "name": "spring",
+        "name": "Spring",
         "color": "green"
       }
     ]
@@ -25,11 +25,11 @@
     "github": "https://github.com/Xavier-Msrt/ticky",
     "tags": [
       {
-        "name": "discord",
+        "name": "Discord",
         "color": "blue"
       },
       {
-        "name": "python",
+        "name": "Python",
         "color": "yellow"
       }
     ]
@@ -43,8 +43,58 @@
     "github": "https://github.com/Xavier-Msrt/portfolio",
     "tags": [
       {
-        "name": "vue",
+        "name": "VueJS",
         "color": "green"
+      }
+    ]
+  },
+  {
+    "name": "Web 3 Course Project",
+    "wip": false,
+    "description": "School project created with four of my friends. The goal was to learn Socket.io and build an application. We decided to create a chat app with features such as group chats and private messaging.",
+    "picture": "web3-project",
+    "github": {
+      "frontend": "https://github.com/xavier-massart-vinci/3BIN-Web3-Project-Front",
+      "backend": "https://github.com/xavier-massart-vinci/3BIN-Web3-Project-Back"
+    },
+    "tags": [
+      {
+        "name": "React",
+        "color": "blue"
+      },
+      {
+        "name": "Socket.io",
+        "color": "indigo"
+      }
+    ]
+  },
+  {
+    "name": "The 'Streams' game, recreated for multiplayer.",
+    "wip": false,
+    "description": "School project developed with three friends as part of a C programming course. The goal was to recreate the game Streams in C, enabling multiplayer gameplay over a network using a server-client architecture with sockets.",
+    "picture": "las-project",
+    "github": "https://github.com/Xavier-Msrt/LAS_projet_2024",
+    "tags": [
+      {
+        "name": "C",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "name": "Project Enterprise Application",
+    "wip": false,
+    "description": "School project developed with four friends to learn about Enterprise Application Architecture. The goal of the app was to create an internship management system for a school.",
+    "picture": "internify-home",
+    "github": "https://github.com/Xavier-Msrt/Project-Enterprise-Application",
+    "tags": [
+      {
+        "name": "React",
+        "color": "blue"
+      },
+      {
+        "name": "JavaEE",
+        "color": "purple"
       }
     ]
   }

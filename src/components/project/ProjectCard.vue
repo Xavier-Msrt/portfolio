@@ -19,14 +19,26 @@
     <div>
       <span class="flex justify-between mt-4 pt-4">
         <div class="flex flex-row gap-4">
-          <a :href="project.github" class="flex gap-2">
+<!--      Github link -->
+          <div v-if="typeof project.github === 'object'" class="flex gap-2">
+            <a class="flex gap-2" :href="project.github.frontend">
+              <img src="../../assets/images/github-mark-white.svg" alt="github" class="w-6 h-6"> front-end
+            </a>
+            <a class="flex gap-2" :href="project.github.backend">
+              <img src="../../assets/images/github-mark-white.svg" alt="github" class="w-6 h-6"> back-end
+            </a>
+          </div>
+          <a v-else :href="project.github" class="flex gap-2">
             <img src="../../assets/images/github-mark-white.svg" alt="github" class="w-6 h-6">
           </a>
+
+<!--      Demo link -->
           <span v-if="project.link">
             <a :href="project.link" class="flex gap-2 hover:font-bold transition-all"
                :class="{ 'pointer-events-none cursor-default': project.wip }">↗ Demo</a>
           </span>
         </div>
+<!--        Tag list -->
         <div class="flex gap-2">
           <Tag v-for="tag in project.tags" :key="tag.name" :name="tag.name" :color="tag.color"/>
         </div>
