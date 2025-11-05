@@ -1,9 +1,8 @@
 [
   {
     "name": "Social Network",
-    "wip": true,
+    "wip": false,
     "description": "Project for learning Angular and practice Spring boot",
-    "link": "https://example.com/project1",
     "picture": "social-network",
     "github": "https://github.com/Xavier-Msrt/social-network",
     "tags": [
